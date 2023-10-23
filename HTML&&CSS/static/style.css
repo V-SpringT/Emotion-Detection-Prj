@@ -1,0 +1,74 @@
+#header{
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.header1{
+    font-size: 26px;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.introduce{
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.wrapper {
+    width: 85%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.pic1{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: orange;
+
+}
+
+.hoten{
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #141515;
+}
+
+.dsnhom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.thanhvien {
+    flex: 1;
+    text-align: center;
+}
+
+.noidung1{
+    font-size: 20px;
+}
+
+.congcu1{
+    padding-top: 30px;
+}
+
+.pic2{
+    width: 693px;
+    height: 217px;
+}
+
+.tinhnang1{
+    padding-left: 30px;
+}
+
+.tinhnangcss{
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}

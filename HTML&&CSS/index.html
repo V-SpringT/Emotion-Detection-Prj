@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu</title>
+    
+</head>
+<body style="color: white;">
+    <div id="container">
+        <div class="introduce">
+            <div id="header">
+                <h1>NHẬN DIỆN CẢM XÚC KHUÔN MẶT</h1>
+    
+            </div>
+            <div id="thanhvien">
+                <h1 class="header1">Danh sách thành viên nhóm</h1>
+                <div class="dsnhom">
+                    <div class="thanhvien">
+                        <img class="pic1"" src=" img/pic1.jpg" alt="vu-xuan_thinh">
+                        <p class="hoten">Vũ Xuân Thịnh</p>
+                    </div>
+                    <div class="thanhvien">
+                        <img class="pic1"" src="C:\Users\SpringT\Dropbox\MyWorld\Emotion_Detection\final\HTML&&CSS\img\hoang.jpg" alt="ha-van-hoang">
+                        <p class="hoten">Hà Văn Hoàng</p>
+                    </div>
+                    <div class="thanhvien">
+                        <img class="pic1"" src="https://gcdnb.pbrd.co/images/eycBEoS7eK8W.jpg" alt="do-dang-khoa">
+                        <p class="hoten">Đỗ Đăng Khoa</p>
+                    </div>
+                    <div class="thanhvien">
+                        <img class="pic1"" src=" img/pic1.jpg" alt="vu-tien-quang">
+                        <p class="hoten">Vũ Tiến Quang</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper">
+            <div id="gioithieu">
+                <h1 class="header1">
+                    I. Giới thiệu về đề tài
+                </h1>
+                <div class="noidung1">
+                    Cảm xúc là trạng thái tinh thần và cảm giác mà con người trải qua dưới nhiều tình huống và thời điểm khác nhau.
+                    Cảm xúc
+                    là một phần quan trọng của cuộc sống con người và có thể ứng dụng trong giáo dục, bảo mật, phân tích hành vi
+                    tiêu dùng.
+                    Nhận diện cảm xúc có thể sử dụng khuôn mặt, giọng nói, chữ viết, điện não đồ. Trong model này chúng ta sẽ dùng
+                    hình ảnh
+                    để phân tích cảm xúc
+                </div>
+            </div>
+            <div id="mohinh">
+                <h1 class="header1">
+                    II. Mô hình
+                </h1>
+                <div class="noidung1">
+                    Sử dụng DeepLearning cụ thể là mạng CNN ta có thể xây dựng hệ thống nhận diện cảm xúc, hoạt động tương đối ổn,
+                    tuy nhiên
+                    trong bài toán này, hầu hết thông tin chỉ đến từ vài phần của khuôn mặt, ví dụ mắt và miệng sẽ cung cấp nhiều
+                    thông tin,
+                    trong khi tai và tóc sẽ cung cấp ít thông tin hơn. Điều này có nghĩa là Model chủ yếu chú đến phần quan trọng
+                    trên khuôn
+                    mặt và ít quan tâm hơn những phần còn lại.
+                </div>
+            </div>
+            
+            <div id="congcu">
+                <h1 class="header1">
+                    III. Công cụ
+                </h1>
+
+
+                <div class="congcu1"> 
+                    <img class=""" src="img/streamlit.png" alt="ha-van-hoang">
+                    <div class="noidung1">                  
+                        Framework Streamlit: Tạo giao diện, chức năng của website nhằm triển khai ứng dụng của nhận diện cảm xúc qua khuôn mặt.
+                    </div>
+                </div>
+
+                <div class="congcu1">
+                    <img class=""" src=" img/opencv.jpg" alt="ha-van-hoang">
+                    <div class="noidung1">
+                        Thư viện OpenCV: Xử lý ảnh cơ bản, cung cấp nhiều chức năng cơ bản như thay đổi kích thước, cắt, xoay, lật, chuyển đổi
+                        màu sắc và làm sáng tối ảnh.
+                        
+                    </div>
+                </div>
+
+                <div class="congcu1">
+                    <img class="pic2" src=" img/pytorch.png" alt="ha-van-hoang">
+                    <div class="noidung1">
+                        Framework Pytorch : PyTorch giúp xây dựng và huấn luyện mạng nơ-ron sâu một cách hiệu quả và có một cộng đồng lớn phát
+                        triển và hỗ trợ. Nó hỗ trợ tính toán trên GPU và cung cấp các công cụ cho việc tối ưu hóa mô hình. PyTorch cũng là một
+                        trong những framework được sử dụng rộng rãi trong lĩnh vực học sâu (deep learning) và nghiên cứu AI.
+                        Các thư viện và framework khác: numpy, pandas, csv, av, os,...
+    
+                    </div>
+                </div>
+            </div>
+
+            <div id="tinhnang">
+                <h1 class="header1">
+                    IV. Các tính năng
+                </h1>
+                <div class="tinhnang1">
+                    <div class="tinhnangcss">
+                        1. Thu thập dữ liệu(Data Collection)
+                    </div>
+                    <div class="tinhnangcss">
+                        2. Nhận diện cảm xúc qua 1 hình ảnh(Emotion Detection By Image)
+                    </div>
+                    <div class="tinhnangcss">
+                        3. Nhận diện cảm xúc qua video thời gian thực (Emotion Detection By Real-time Video )
+                    </div>
+                    <div class="tinhnangcss">
+                        4. Phân tích dữ liệu cảm xúc(Emotion Analysis)
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="gioithieu">
+                <h1 class="header1">
+                    V. Hạn chế
+                </h1>
+                <div class="tinhnang1">
+                    <div class="tinhnangcss">
+                        1. Số liệu về độ chính xác của mô hình đối với các dữ liệu khác nhau
+                    </div>
+                    <div class="tinhnangcss">
+                        2. Tham số cho model được huấn luyện trên dữ liệu FER-2013 cho ra kết quả hoạt động được với số lớp trong model khá ít tuy
+                        nhiên vẫn còn thiếu ổn định
+                    </div>
+                    <div class="tinhnangcss">
+                        3. Dữ liệu không cân bằng, có những class như happy(7215 ảnh), neutral(4965 ảnh) có nhiều dữ liệu hơn trong khi class
+                        disgust chỉ có 436 ảnh
+
+                    </div>
+                    <div class="tinhnangcss">
+                        4. Dữ liệu khuôn mặt được cắt tự động nên chất lượng có thể không đảm bảo (tay che mất nhiều phần mặt, mặt trong hoạt hình
+                        được cắt vào, logo trong video bị cắt nhầm được thêm vào, …)
+
+                    </div>
+
+                    <div class="tinhnangcss">
+                        5. Dữ liệu có thể không đa dạng về chủng tộc nên độ chính xác có thể thay đổi tùy vào màu da, dân tộc.
+                    
+                    </div>
+                    <div class="tinhnangcss">
+                        6. Model có số lượng lớp khá ít (dưới 10 lớp) nên có kết quả kém hơn các model sâu hơn tuy nhiên cách biệt không quá lớn
+
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div id="gioithieu">
+                <h1 class="header1">
+                    VI. Hướng phát triển
+                </h1>
+                <div class="tinhnang1">
+                    <div class="tinhnangcss">
+                        1. Thực hiện Data augmentation (Tăng cường dữ liệu) bằng phương pháp xử lý ảnh như xoay, thêm nhiễu, … hoặc có thể sử dụng
+                        mô hình deep learning để tạo ảnh như kiến trúc GAN
+
+                    </div>
+                    <div class="tinhnangcss">
+                        2. Ứng dụng bao gồm chức năng tạo dữ liệu để người dùng tạo dữ liệu riêng để huấn luyện model, khuyến khích sử dụng
+                        transfer learning trên tham số đã được huấn luyện trên một dữ liệu lớn để có kết quả nhận diện tốt hơn
+
+                    </div>
+                  
+                </div>
+            </div>
+
+        </div>     
+    </div>
+</body>
+</html>

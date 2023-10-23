@@ -15,4 +15,4 @@ tenacity==8.2.3
 tensorboard==2.14.1
 tensorboard-data-server==0.7.1
 termcolor==2.3.0
-torch==2.1.0S
+torch==2.1.0

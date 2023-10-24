@@ -2,7 +2,7 @@ streamlit==1.27.2
 av==10.0.0
 matplotlib==3.8.0
 numpy==1.24.3
-opencv-python==4.8.1.78
+opencv-python-headless==4.8.1.78
 pandas==2.1.1
 streamlit==1.27.2
 streamlit-server-state==0.17.1
